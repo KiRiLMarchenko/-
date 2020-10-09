@@ -5,7 +5,7 @@
 	{	
 		setlocale(LC_ALL,"RUSSIAN");
 		float m,r,g;
-		printf("Ââåäèòå ïåðåìåííûå r,m ,M>R\n");
+		printf("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½Ñ‹Ðµ r,m ,M>R\n");
 		scanf("%f %f\n",&r,&m);
 		g=0;
 		while(r<=m)
@@ -13,7 +13,7 @@
 			r=r+r*0.04;
 			g=g+1;
 		}
-		printf("×åðåç %f\n",g);
+		printf("Ñ‡ÐµÑ€ÐµÐ· %f\n",g);
 	
 		return 0;	
 	}
