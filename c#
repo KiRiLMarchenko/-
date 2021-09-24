@@ -1,0 +1,36 @@
+using System;
+public class K1
+{
+	private int a=7;
+	private int b=4;
+		public int c
+	{
+		set{ c=a++;}
+	}	
+}		
+		public class K2
+{	
+			private int a=7;
+			private int b=4;
+		public int c
+	{
+		set{c=a*=b ;}
+	}
+}
+		public class K3
+{
+	private int a=7;
+	private int b=4;
+		public int c
+	{
+		set{c=a-b;}
+	}	
+}		
+
+class program {
+    static void Main(string[] args) {
+		K1  Obj1 = new K1();
+		Obj1.c;
+        Console.WriteLine("Hello, world!");
+}
+}
