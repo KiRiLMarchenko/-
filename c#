@@ -25,7 +25,7 @@ public class K1
   static void Main() {
 		K1  Obj = new K1();
         Console.WriteLine(Obj.c);
-		Console.WriteLine(Obj.c1);
-		Console.WriteLine(Obj.c2);
+	Console.WriteLine(Obj.c1);
+	Console.WriteLine(Obj.c2);
 }
 }
